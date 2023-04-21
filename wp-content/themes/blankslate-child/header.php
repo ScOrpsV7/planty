@@ -21,7 +21,7 @@ if ( is_front_page() || is_home() || is_front_page() && is_home() ) { echo '</h1
 </div>
 <nav id="menu" role="navigation" itemscope itemtype="https://schema.org/SiteNavigationElement">
 <?php wp_nav_menu( array( 'theme_location' => 'main-menu', 'link_before' => '<span itemprop="name">', 'link_after' => '</span>' ) ); ?>
-<div id="search"><h1>salut</h1></div>
+<div id="search"><h1>hello</h1></div>
 </nav>
 </header>
 <div id="container">
